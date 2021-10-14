@@ -1,3 +1,8 @@
+.dc_store
+.AppleDouble
+.LSOverride
+
 node_modules
+
 /src/assets/scss
 .vs
