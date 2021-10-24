@@ -22,7 +22,7 @@ const browserSync = require("browser-sync").create();
 /* Paths */
 const srcPath = 'src/';
 const distPath = 'dist/';
-
+console.log(sass)
 const path = {
     build: {
         html:   distPath,
