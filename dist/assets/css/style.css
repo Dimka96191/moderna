@@ -402,6 +402,18 @@ body {
     padding: 0 1.5rem;
 }
 
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+@media (max-width: 720px) {
+    .container-fluid {
+        padding: 0 0.5rem;
+    }
+}
+
 .header__inner {
     display: -ms-flexbox;
     display: flex;
@@ -525,4 +537,90 @@ body {
     display: block;
     height: 1.2rem;
     width: 1.4rem;
+}
+
+.search {
+    background-color: green;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 53rem;
+}
+
+.search__inner {
+    padding: 14.5rem 0 10rem 0;
+    color: #fff;
+    text-align: center;
+}
+
+.search__inner-title {
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 3.5rem;
+}
+
+.search__inner-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 6rem;
+}
+
+.search__inner-form {
+    max-width: 67rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search__inner-form input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 1px 10px 0px rgba(124, 178, 64, 0.75);
+    height: 56px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0 5rem 0 2.5rem;
+    outline: none;
+}
+
+.search__inner-form input::-webkit-input-placeholder {
+    color: #90a4ae;
+    font-weight: 500;
+}
+
+.search__inner-form input::-moz-placeholder {
+    color: #90a4ae;
+    font-weight: 500;
+}
+
+.search__inner-form input:-ms-input-placeholder {
+    color: #90a4ae;
+    font-weight: 500;
+}
+
+.search__inner-form input::-ms-input-placeholder {
+    color: #90a4ae;
+    font-weight: 500;
+}
+
+.search__inner-form input::placeholder {
+    color: #90a4ae;
+    font-weight: 500;
+}
+
+.search__inner-form button {
+    position: absolute;
+    top: 1.4rem;
+    right: 2rem;
+    border: none;
+    background-color: transparent;
+    width: 4rem;
+    opacity: 0.4;
+}
+
+.products__item-name a {
+    display: block;
+    color: inherit;
 }
